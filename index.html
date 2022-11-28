@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/app.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <form class="formPosiciones" action="" method="get">
+        <select class="selectPosicionesDivision" name="selectPosicionesDivision" id="selectPosicionesDivision">
+            <option class="optionA" value="a">Division A</option>
+            <option class="optionB" value="b">Division B</option>
+        </select>
+        <select class="selectPosicionesCategoria" name="selectPosicionesCategoria" id="selectPosicionesCategoria">
+            <option class="optionA" value="primera">Primera</option>
+            <option class="optionB" value="sub">Sub 20/21</option>
+        </select>
+    </form>
+    <div class="tablaPosiciones">
+        <div class="tablaHeader">
+            <div class="tablaRow">
+                <div class="pos">pos</div>
+                <div class="escudo"></div>
+                <div class="nombreEquipo">Equipo</div>
+                <div class="pts">pts</div>
+                <div class="pj">pj</div>
+                <div class="pg">pg</div>
+                <div class="pe">pe</div>
+                <div class="pp">pp</div>
+                <div class="gf">gf</div>
+                <div class="gc">gc</div>
+                <div class="dif">dif</div>
+            </div>
+        </div>
+        <div class="tablaBody"></div>
+    </div>
+
+
+    <form class="formPartidos" action="" method="">
+        <select class="selectPartidosDivision" name="selectPartidosDivision" id="selectPartidosDivision">
+            <option class="" value="a">Division A</option>
+            <option class="" value="b">Division B</option>
+        </select>
+        <select class="selectPartidosCategoria" name="selectPartidosCategoria" id="selectPartidosCategoria">
+            <option class="" value="primera">Primera</option>
+            <option class="" value="sub">Sub 20/21</option>
+        </select>
+        <select class="selectPartidosJornada" name="selectPartidosJornada" id="selectPartidosJornada">
+            <option value="1">Fecha 1</option>
+            <option value="2">Fecha 2</option>
+            <option value="3">Fecha 3</option>
+            <option value="4">Fecha 4</option>
+            <option value="5">Fecha 5</option>
+        </select>
+    </form>
+    <div class="partidosContainer">
+        
+    </div>
+
+
+    <script src="./scripts/arrayEquipos.js"></script>
+    <script src="./scripts/nodes.js"></script>
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/fixture.js"></script>
+    <script src="./scripts/selectFunctions.js"></script>
+</body>
+</html>
