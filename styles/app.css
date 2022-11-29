@@ -39,6 +39,7 @@ select{
     display: grid;
     grid-template-columns: 1fr 1fr 10fr repeat(8,1fr);
     grid-template-rows: 1fr;
+    align-items: center;
     
     font-size: 20px;
     text-transform: uppercase;
